@@ -1,0 +1,13 @@
+---
+applications:
+- name: myapp
+  memory: 128MB
+  disk_quota: 256MB
+  random-route: true
+  buildpack: python_buildpack
+  command: python play.py
+  env:
+      AUTH_DOMAIN: 'master-data-security.apps-np.homedepot.com'
+      AUTH_PATH: '/security/oauth/token'
+      AUTH_CLIENT_ID: 'df2a7b2e-c6b9-41ce-a4ae-6d2f4547acd1'
+      AUTH_CLIENT_SECRET: 'zuRVk357A4n8MfNf'
