@@ -28,6 +28,9 @@ Psuedocode
 SLACK_BOT_USER_TOKEN = os.environ['BOT_USER_TOKEN']
 slack_client = SlackClient(SLACK_BOT_USER_TOKEN)
 mktss = markets()
+markets = []
+for market in mktss:
+    markets.append(next(mktss))
 
 link = '<https://media.makeameme.org/created/that-would-be-3dsosw.jpg|That would be great>'
 
@@ -63,9 +66,7 @@ if slack_client.rtm_connect():
                     # if message contains 'directions'
                     if ('directions' in text):
                         # ask to what market store is in
-                        options = []
-                        for market in mktss:
-                            options.append(next(mktss))
+
 
                         slack_client.api_call('chat.postMessage',
                                               channel=channel,
@@ -82,7 +83,7 @@ if slack_client.rtm_connect():
                                                         "text": "Which Market",
                                                         "type": "select",
                                                         #markets will go here
-                                                        "options": options
+                                                        "options": markets
                                                     }
                                                 ]
                                               }]
