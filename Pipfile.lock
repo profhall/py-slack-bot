@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "35c672eb78402bbbe8514020871a2b6cbed694144fe36680ea6efdcca979c544"
+            "sha256": "e90719b8f6cf4614b2dc0d25716bf064f421e11e46fb23993caccad81a786d47"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -154,12 +154,26 @@
             ],
             "version": "==1.11.0"
         },
+        "slackclient": {
+            "hashes": [
+                "sha256:e9de0c893e8c5473107f5927ae1e543d35246f0c834f5e86470b22b762211577"
+            ],
+            "index": "pypi",
+            "version": "==1.2.1"
+        },
         "urllib3": {
             "hashes": [
                 "sha256:a68ac5e15e76e7e5dd2b8f94007233e01effe3e50e8daddf69acfd81cb686baf",
                 "sha256:b5725a0bd4ba422ab0e66e89e030c806576753ea3ee08554382c14e685d117b5"
             ],
             "version": "==1.23"
+        },
+        "websocket-client": {
+            "hashes": [
+                "sha256:18f1170e6a1b5463986739d9fd45c4308b0d025c1b2f9b88788d8f69e8a5eb4a",
+                "sha256:db70953ae4a064698b27ae56dcad84d0ee68b7b43cb40940f537738f38f510c1"
+            ],
+            "version": "==0.48.0"
         },
         "werkzeug": {
             "hashes": [

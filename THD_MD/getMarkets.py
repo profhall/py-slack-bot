@@ -67,4 +67,4 @@ def listMarkets():
     #print (json.dumps(markets_with_stores, indent=3))
     return markets_with_stores
 
-print (json.dumps(listMarkets(), indent=3))
+#print (json.dumps(listMarkets(), indent=3))

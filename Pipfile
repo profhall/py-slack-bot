@@ -9,6 +9,7 @@ requests-oauthlib = "*"
 pytest = "*"
 googlemaps = "*"
 flask = "*"
+slackclient = "*"
 
 [dev-packages]
 

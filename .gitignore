@@ -1,4 +1,5 @@
-
+#Ingnore manifest.yml
 /manifest.yml
 
+#ignore pytest cache
 .pytest_cache/

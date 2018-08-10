@@ -19,4 +19,4 @@ def market_stores(market_number):
     # return market_json
     return stores_in_market
 
-print (json.dumps(market_stores(2), indent=3))
+#print ('From marketStores.py', json.dumps(market_stores(2), indent=3))

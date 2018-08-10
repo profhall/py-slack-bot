@@ -32,8 +32,8 @@ response = requests.get(location_url, headers=head)
 response_json =response.json()
 
 
-print (json.dumps(response_json, indent=1))
-print (response_json.keys())
+#print (json.dumps(response_json, indent=1))
+#print (response_json.keys())
 
 '''
 print(os.name )

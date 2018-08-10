@@ -1,9 +1,10 @@
 # import dependencies
-import os, sys, json
-from flask import Flask
+import os, sys, json, time
+from flask import Flask, request, Response
 from THD_MD.marketStores import market_stores
 from THD_MD.store_info import store_info
 from THD_MD.getMarkets import listMarkets
+from slack_botClass import slackCommunication
 
 # bootstrap the app
 app = Flask(__name__)
@@ -19,9 +20,9 @@ def homePage():
 
 @app.route('/test')
 def anotherPage():
-    markets = listMarkets()
-    print(markets)
-    return 'On Another Page %m' % markets
+    #markets = listMarkets()
+    #print(markets)
+    return 'On Another Page %m'
 
 @app.route('/test2')
 def yetAnotherPage():
@@ -30,9 +31,11 @@ def yetAnotherPage():
 
 @app.route('/events')
 def events():
-    return 'Events page'
+    return 'events page'
+
 
 
 # start the app
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=port)
+
