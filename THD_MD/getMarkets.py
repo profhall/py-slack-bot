@@ -26,8 +26,8 @@ def listMarkets():
     #print (json.dumps(markets_json, indent=1))
     #print (markets_json.keys())
     #print (total_pages)
-    markets_with_stores={}
-    markets_without_stores={}
+    markets_with_stores=[]
+    markets_without_stores=[]
 
     for current_page in range(total_pages):
     #for current_page in range(1):
@@ -58,10 +58,10 @@ def listMarkets():
             if ('_embedded' in stores_in_markets_json):
                 num_stores_in_market = len(stores_in_markets_json['_embedded']['stores'])
                 #print ("Stores:", num_stores_in_market, "\n")
-                markets_with_stores[market_name] = {'number':market_num,'stores':num_stores_in_market}
+                markets_with_stores.append({'text': market_name,'value':market_num,'description':str(num_stores_in_market) + " stores"})
             else:
                 #print ("No Stores\n")
-                markets_without_stores[market_name] = {'number':market_num}
+                markets_without_stores.append({'market name': market_name,'number':market_num})
 
     #print (json.dumps( markets_without_stores, indent=3))
     #print (json.dumps(markets_with_stores, indent=3))

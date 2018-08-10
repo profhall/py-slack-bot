@@ -24,5 +24,6 @@ head = {'Authorization': 'Bearer ' + token}
 #print(response.content)
 #print(response.json())
 #print(json.dumps(response.json(), indent=4))
-#print(response_json["access_token"])
+#print("Got Token!", response_json["access_token"])
+print("Got Token!")
 

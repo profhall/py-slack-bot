@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911b5ea6-0e75-4d21-97d3-826b72ca8e03" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slack_botClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storefinderbot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_slack_bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_play.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THD_MD/getLocations.py" beforeDir="false" afterPath="$PROJECT_DIR$/THD_MD/getLocations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THD_MD/generateToken.py" beforeDir="false" afterPath="$PROJECT_DIR$/THD_MD/generateToken.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/THD_MD/getMarkets.py" beforeDir="false" afterPath="$PROJECT_DIR$/THD_MD/getMarkets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THD_MD/marketStores.py" beforeDir="false" afterPath="$PROJECT_DIR$/THD_MD/marketStores.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/play.py" beforeDir="false" afterPath="$PROJECT_DIR$/play.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storefinderbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/storefinderbot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,30 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="getLocations.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THD_MD/getLocations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slack_botClass.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slack_botClass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_slack_bot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_slack_bot.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,13 +27,83 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="flask_play.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_play.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <folding>
+                <element signature="e#22#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/play.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="storefinderbot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/storefinderbot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+            <state relative-caret-position="653">
+              <caret line="84" column="67" lean-forward="true" selection-start-line="84" selection-start-column="67" selection-end-line="84" selection-end-column="67" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nflBot/NFL/events/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-247">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getQuestion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nflBot/NFL/events/getQuestion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2280" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generateToken.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THD_MD/generateToken.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_pyTHD.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THD_MD/test_pyTHD.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="41" selection-start-line="2" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getMarkets.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THD_MD/getMarkets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="58" column="89" lean-forward="true" selection-start-line="58" selection-start-column="89" selection-end-line="58" selection-end-column="89" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,48 +114,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" selection-start-line="6" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../djangoBot/django_slack/events/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="78" lean-forward="true" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtime.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manifest.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -150,7 +147,6 @@
         <option value="$PROJECT_DIR$/THD_MD/stores_in_market.py" />
         <option value="$PROJECT_DIR$/test_pybank.py" />
         <option value="$PROJECT_DIR$/test_pyTHD.py" />
-        <option value="$PROJECT_DIR$/THD_MD/generateToken.py" />
         <option value="$PROJECT_DIR$/Pipfile" />
         <option value="$PROJECT_DIR$/THD_MD/store_info.py" />
         <option value="$PROJECT_DIR$/directions_api.py" />
@@ -164,7 +160,6 @@
         <option value="$PROJECT_DIR$/app/routes.py" />
         <option value="$PROJECT_DIR$/gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/THD_MD/getMarkets.py" />
         <option value="$PROJECT_DIR$/THD_MD/getLocations.py" />
         <option value="$PROJECT_DIR$/THD_MD/marketStores.py" />
         <option value="$PROJECT_DIR$/../starterBot/starterbot.py" />
@@ -172,10 +167,12 @@
         <option value="$PROJECT_DIR$/slack_client.py" />
         <option value="$PROJECT_DIR$/slack_bot.py" />
         <option value="$PROJECT_DIR$/manifest.yml" />
-        <option value="$PROJECT_DIR$/play.py" />
         <option value="$PROJECT_DIR$/test_slack_bot.py" />
         <option value="$PROJECT_DIR$/server.py" />
         <option value="$PROJECT_DIR$/slack_botClass.py" />
+        <option value="$PROJECT_DIR$/THD_MD/generateToken.py" />
+        <option value="$PROJECT_DIR$/play.py" />
+        <option value="$PROJECT_DIR$/THD_MD/getMarkets.py" />
         <option value="$PROJECT_DIR$/storefinderbot.py" />
       </list>
     </option>
@@ -212,6 +209,11 @@
               <item name="Maps" type="b2602c69:ProjectViewProjectNode" />
               <item name="Maps" type="462c0819:PsiDirectoryNode" />
               <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maps" type="462c0819:PsiDirectoryNode" />
+              <item name="THD_MD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,10 +275,11 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.37910447" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11927582" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.7303482" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11927582" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -287,28 +290,27 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11927582" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11927582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.37910447" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.7303482" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -335,30 +337,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/THD_MD/marketStores.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THD_MD/getMarkets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THD_MD/generateToken.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/THD_MD/test_pyTHD.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -389,7 +367,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/play.py">
+    <entry file="file://$PROJECT_DIR$/flask_play.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="49" selection-start-line="49" selection-end-line="50" selection-end-column="45" />
@@ -460,7 +438,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/play.py">
+    <entry file="file://$PROJECT_DIR$/flask_play.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" selection-start-line="49" selection-end-line="50" selection-end-column="45" />
@@ -598,30 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/THD_MD/test_pyTHD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THD_MD/generateToken.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,16 +599,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pipfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THD_MD/getMarkets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/THD_MD/marketStores.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -709,14 +657,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/play.py">
+    <entry file="file://$PROJECT_DIR$/slack_botClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
-            <element signature="e#22#48#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nflBot/NFL/events/getQuestion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2280" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../starterBot/starterbot.py">
@@ -726,12 +679,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slack_botClass.py">
+    <entry file="file://$PROJECT_DIR$/../nflBot/NFL/events/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="-247">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_play.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#22#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,10 +703,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/THD_MD/test_pyTHD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THD_MD/generateToken.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THD_MD/getMarkets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="58" column="89" lean-forward="true" selection-start-line="58" selection-start-column="89" selection-end-line="58" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/play.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/storefinderbot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+        <state relative-caret-position="653">
+          <caret line="84" column="67" lean-forward="true" selection-start-line="84" selection-start-column="67" selection-end-line="84" selection-end-column="67" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
