@@ -33,14 +33,23 @@ def yetAnotherPage():
     store = store_info(store_number=114)
     return 'On Yet Another Page %s' % store
 
-@app.route('/events', methods=['GET'])
+@app.route('/events', methods=['Get'])
 def events():
-    print(request.args['challenge'])
-    challenge = str(request.args['challenge'])
-    my_resp = make_response('Response!')
+    challenge = request.args.get('challenge')
+    token = request.args.get('token')
+    type = request.args.get('type')
+    data = {'challenge': challenge}
+    js = json.dumps(data)
+
+    my_resp = make_response('response')
     my_resp.headers['challenge'] = challenge
     my_resp.status_code = 200
-    return my_resp
+
+    resp = Response(js, status=200, mimetype='application/json')
+    resp.headers['token'] = token
+    resp.headers['type'] = type
+    resp.headers['challenge'] = challenge
+    return (resp)
 #https://myapp-optimistic-topi.apps-np.homedepot.com/events/
 
 @app.route('/hello')
